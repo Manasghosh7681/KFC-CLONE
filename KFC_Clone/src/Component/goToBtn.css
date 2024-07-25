@@ -1,0 +1,16 @@
+.top-btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: 2px solid black; */
+    
+}
+
+.top-btn > Button{
+    /* border: 1px solid red; */
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100rem;
+    margin-right: 4rem;
+
+}

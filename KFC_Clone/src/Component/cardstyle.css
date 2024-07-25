@@ -1,0 +1,6 @@
+#addtocart{
+    transition: 0.3s;
+}
+#addtocart:active{
+    transform: scale(1.2);
+}

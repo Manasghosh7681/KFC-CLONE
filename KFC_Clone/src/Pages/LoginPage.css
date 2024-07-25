@@ -1,0 +1,109 @@
+.loginform
+{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.header
+{
+    margin-bottom: 3rem;
+    font-size: 20px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 400;
+}
+.logo img
+{
+    height: 40px;
+    width: 86px;
+    margin-bottom: 30px;
+}
+.form 
+{
+    margin-top: 30px;
+ 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.form input{
+    border: none;
+    border-bottom: 1px solid #202124;
+    height: 30px;
+    width: 300px;
+    transition: 0.3s;
+}
+input:focus{
+    outline: none;
+}
+input:hover{
+    transform: scale(1.1);
+}
+.btn button{
+    margin-top: 30px;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border: 1px solid #202124;
+    background-color:white;
+    color: #202124;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn button:hover{
+    transform: scale(1.1);
+    background-color:#202124;
+    color: white;
+}
+.signup-btn
+{
+    display: flex;
+    font: 14px "National 2-Medium";
+    font-weight: 500;
+}
+.signup-btn button{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.375);
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+.signup-btn button:hover{
+    color: red;
+    transform: scale(1.1);
+}
+.Account{
+
+    font: italic;
+    font-weight: 700px;
+    font-size: 30px;
+    color: #202124;
+}
+.error{
+    color: red;
+}
+@media screen and (min-width:321px) and (max-width:720px){
+    .loginform{
+        height: 600px;
+    }
+    .form input{
+        width: 250px;
+       }
+
+}
+@media screen and (max-width:320px) {
+   .loginform{
+    height: 530px;
+   }
+   .form input{
+    width: 200px;
+   }
+   .Account{
+    font-size: 20px;
+   }
+    
+}

@@ -1,0 +1,22 @@
+.slick-slide > div{
+    margin:0 10px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 30rem;
+    width: 23rem; 
+}
+#applyOfferbtn{
+    border: 1px solid black;
+    height: 3.5rem;
+    width: 10rem;
+    border-radius: 50px;
+    transition: 0.2s;
+    text-align: center;
+}
+#applyOfferbtn:hover{
+    background-color: #212529;
+    color: white;
+    transform: scale(1.1);
+
+}

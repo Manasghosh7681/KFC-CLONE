@@ -1,0 +1,17 @@
+#sidebar-content > div{
+    background-color: white;
+}
+#sidebar-content{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#contentDiv{
+    /* border:1px solid black; */
+    height: 150vh;
+    width: 80vw;
+}
+#content{
+    width: 90rem;
+}
+/* ************************************************************* */
